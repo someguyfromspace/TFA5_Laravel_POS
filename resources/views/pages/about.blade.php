@@ -1,0 +1,8 @@
+@extends('layouts.app')
+@section('title', 'About')
+@section('heading', 'About')
+@section('content')
+<div class="page-intro"><p class="eyebrow accent">ABOUT THE APPLICATION</p><h1>Built to keep things <span>in order.</span></h1><p class="intro">POS Central is a foundational Point of Sale (POS) administration interface created for the IT0049 Web System Technologies Technical Formative Assessment 5.</p></div>
+<div class="about-layout"><article class="content-panel"><span class="panel-label">OUR PURPOSE</span><h2>A clear view of your accounts.</h2><p>The application provides a simple landing page and dedicated pages for customer and user account records. It demonstrates how a Laravel application organizes requests and responses using the Model-View-Controller (MVC) pattern.</p><p>For this activity, customer and user records are stored in static PHP arrays inside their respective controllers. The Blade templates display those records using the <code>@foreach</code> directive.</p></article><aside class="stack-panel"><span class="panel-label">LARAVEL MVC FLOW</span><div class="flow-step"><span>01</span><div><strong>Route</strong><small>Receives the URL request</small></div></div><div class="flow-arrow">↓</div><div class="flow-step"><span>02</span><div><strong>Controller</strong><small>Prepares the page and data</small></div></div><div class="flow-arrow">↓</div><div class="flow-step"><span>03</span><div><strong>Blade View</strong><small>Renders the HTML response</small></div></div></aside></div>
+<div class="info-banner"><div class="banner-symbol">⌘</div><div><strong>Framework foundation</strong><p>Laravel provides routing, controller organization, and Blade templating to keep application code structured and maintainable.</p></div></div>
+@endsection
